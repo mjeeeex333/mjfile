@@ -73,8 +73,8 @@ clear:both;
 </div>
 
 <div>
-<s:if test="errorMessage!=">
-<s:property value="errorMessage"escape="false"/>
+<s:if test="errorMessage!= ''">
+<s:property value="errorMessage" escape="false"/>
 </s:if>
 
 <table>
@@ -82,7 +82,10 @@ clear:both;
 
 <tr>
 <td>
-<label>ログインID</label>
+<label>ログインID:</label>
+</td>
+<td>
+<input type="text" name="loginUserId" value=""/>
 </td>
 </tr>
 
@@ -91,7 +94,7 @@ clear:both;
 <label>ログインPASS</label>
 </td>
 <td>
-<input type="text"name="loginPassword"value=""/>
+<input type="text"name="loginPassword" value=""/>
 </td>
 </tr>
 
@@ -101,7 +104,7 @@ clear:both;
 <label>ユーザー名:</label>
 </td>
 <td>
-<input type="text"name="userName"value=""/>
+<input type="text"name="userName" value=""/>
 </td>
 </tr>
 
