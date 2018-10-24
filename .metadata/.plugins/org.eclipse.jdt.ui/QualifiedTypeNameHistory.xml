@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dto.LoginDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.BuyItemDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dto.BuyItemDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.UserCreateCompleteDAO"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
