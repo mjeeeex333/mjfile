@@ -5,4 +5,6 @@
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dto.BuyItemDTO"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.UserCreateCompleteDAO"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dto.MyPageDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.MyPageDAO"/>
 </qualifiedTypeNameHistroy>

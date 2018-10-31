@@ -99,17 +99,6 @@ clear:both;
 </tr>
 
 <tr>
-<td>
-<span>値段</span>
-</td>
-
-<td>
-<s:property value="session.buyItem_price"/>
-<span>円</span>
-</td>
-</tr>
-
-<tr>
 
 <td>
 
