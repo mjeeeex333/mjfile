@@ -19,7 +19,7 @@ public class LoginAction extends ActionSupport implements SessionAware {
 	private LoginDTO loginDTO = new LoginDTO();
 	private BuyItemDAO buyItemDAO = new BuyItemDAO();
 
-	public String eecute(){
+	public String execute(){
 		String result = ERROR;
 		loginDTO = loginDAO.getLoginUserInfo(loginUserId,loginPassword);
 		session.put("loginUser", loginDTO);
@@ -32,6 +32,9 @@ public class LoginAction extends ActionSupport implements SessionAware {
 			session.put("id",buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());
 			session.put("buyItem_price", buyItemDTO.getItemPrice());
+
+			System.out.println(session.get("buyItem_name").toString());
+			System.out.println(session.get("buyItem_price").toString());
 
 			return result;
 

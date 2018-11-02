@@ -121,8 +121,8 @@ clear:both;
 <span>支払い方法</span>
 </td>
 <td>
-<input type="radio"  name="pay"value="1"checked="checked">現金払い
-<input type="radio"  name="pay"value="2">クレジットカード
+<input type="radio"  name="pay" value="1"checked="checked">現金払い
+<input type="radio"  name="pay" value="2">クレジットカード
 </td>
 </tr>
 

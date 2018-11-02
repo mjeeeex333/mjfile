@@ -36,8 +36,18 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 
 	}
 
+	public int getCount() {
+		return count;
+
+		}
+
 	public void setCount(int count) {
 		this.count = count;
+
+		}
+
+	public String getPay() {
+		return pay;
 
 		}
 
@@ -45,6 +55,12 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 		this.pay = pay;
 
 		}
+
+		public Map<String, Object> getSession() {
+
+			return session;
+
+			}
 
 		public void setSession(Map<String, Object> session) {
 
